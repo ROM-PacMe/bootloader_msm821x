@@ -119,6 +119,8 @@ void target_init(void)
 		msm8960_keypad_init();
 		break;
 	case MSM8130:
+	case MSM8210:
+	case MSM8212:
 	case MSM8227:
 	case MSM8230:
 	case MSM8630:
